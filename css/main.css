@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.color1 {
+    background-color: rgb(0, 255, 255);
+}
+
+.color2 {
+    background-color: yellow;
+
+}
+
+.color3 {
+    background-color: green;
+}
+
+.color4 {
+    background-color: white;
+}
+
+.color5 {
+    background-color: #008000;
+    margin-left: 90 px;
+}
+
+.color6 {
+    background-color: green;
+    margin-left: 42 px;
+}
+
+
+// CODIGO INSERTADO
+
+body {
+    padding-top: 50px;
+}
+
+.space {
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.white{
+
+    color: white;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  }
+
+
+
+.img2 {
+  width: 50%;
+   height: 100px;
+    
+}
+
+.video {
+    
+    margin: 0 -15px;
+    width: 365%;
+    height: 245%;
+    border-radius: 15px;
+}
+
+.size{
+    width: 52%;
+    height: 168px;
+    
+}
+
+.divr {
+    margin-right: 40px;
+}
+
+.divl {
+    margin-left: 40px;
+}
+
+
+.col3 {
+    width: 178px;
+    height: 383px;
+}
+
+.colD {
+    width: 520px;
+    height: 383px;
+}
+
+.colD1 {
+    width: 390px;
+    height: 383px;
+}
+
+ .contenedor-columnas {
+        column-count: 3; /* Número de columnas */
+        column-gap: 20px; /* Espacio entre columnas */
+    }
+
+.principalT{
+   color: white;
+   font-size: 32px;
+   font-size: 1.2em;
+}
+
+.contenedor {
+        font-size: 25px;
+    }
+
+.boton {
+   width: 50px;
+   height: 20px;
+
+}
+
+ .flex{
+      display flex
+        justify-content: center;
+        align-items: center;
+        
+
+ } 
+
+.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    /* Estilos para el checkbox activado */
+.enabled {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    input[type="checkbox"]:not(:checked) ~ .disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+
